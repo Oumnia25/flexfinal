@@ -1,0 +1,149 @@
+* {
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: rgb(221, 219, 219);
+  align-items: center;
+}
+.respmenu {
+  display: none;
+}
+.menu {
+  display: flex;
+}
+.introduction {
+  display: flex;
+  justify-content: space-around;
+}
+.Testimonials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.spotify {
+  width: 70px;
+}
+.slack {
+  width: 80px;
+  align-self: flex-start;
+}
+.dropbox {
+  width: 80px;
+}
+.zoom {
+  width: 80px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(221, 219, 219);
+}
+@media (max-width: 700px) {
+  .menu {
+    display: none;
+  }
+  .respmenu {
+    display: block;
+    width: 40px;
+    justify-content: end;
+    bottom: 20px;
+  }
+  .introduction {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .logos {
+    width: 290px;
+    height: 180px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .Testimonials {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  footer {
+    width: 360px;
+    flex-direction: column;
+  }
+  .spotify {
+    width: 60px;
+  }
+  .slack {
+    width: 70px;
+  }
+  .dropbox {
+    width: 70px;
+  }
+  .zoom {
+    width: 70px;
+  }
+}
+
+main {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: x-large;
+}
+h1 {
+  font-size: medium;
+}
+
+p {
+  font-size: 10px;
+  justify-items: center;
+}
+.work {
+  width: 300px;
+}
+.Companies {
+  display: flex;
+  justify-content: center;
+}
+
+.h3 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.Vera {
+  background-color: rgb(221, 219, 219);
+}
+.Mark {
+  background-color: rgb(221, 219, 219);
+}
+.Andrew {
+  background-color: rgb(221, 219, 219);
+}
+.boton {
+  width: 100px;
+  background-color: rgb(136, 229, 229);
+  border-radius: 10%;
+  color: white;
+}
